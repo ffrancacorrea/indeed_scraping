@@ -1,6 +1,7 @@
+#!/usr/bin/python3
+
 from bs4 import BeautifulSoup
 import requests
-
 
 def count(salaries):
     print('returning mean of salaries')
