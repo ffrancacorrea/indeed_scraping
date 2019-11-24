@@ -15,14 +15,12 @@ def count(salaries):
     result = sum(salaries)/len(salaries)
     return result
 
-
 def get_job_title(soup):
     titles = []
     for div in soup.find_all(name='div', attrs={'class': 'title'}):
         for a in div.find_all(name='a', attrs={'data-tn-element': 'jobTitle'}):
             titles.append(a['title'])
     return titles
-
 
 def get_salary(soup):
     salaries = []
@@ -39,7 +37,6 @@ def get_salary(soup):
             temp_sal_list.append(salary)
 
     return temp_sal_list
-
 
 pages = []
 for page in range(10, 50, 10):
