@@ -1,6 +1,6 @@
 # indeed_scraping
 
-Simple web scraping of the employment-related search engine for job listings Indeed in order to find the mean of the data engineer salaries available on the site.
+Simple web scraping of the employment-related search engine for job listings Indeed in order to find the mean of the data engineer salaries in Paris available on the site.
 
 ## get_job_title
 
